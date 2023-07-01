@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+    color: white;
+    background-image: url(https://wallpapercave.com/wp/LYnrrzN.png);
+
+}
+h1{
+    color:goldenrod;
+    background-color: black;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 0%;
+    margin-right: 0%;
+    max-width: 1000px;
+    animation: glow 2s linear infinite;
+
+
+}
+.head{
+    background-color:black;
+    padding: 30px 400px 0px 400px;
+    
+}
+.form{
+    color: azure;
+    background-color: black;
+    text-align: center;
+    padding: 150px 550px 225px 550px;
+    max-width: 400px;
+    background-image: url(https://wallpapercave.com/wp/LYnrrzN.png);
+
+    
+
+}
+.ff{
+    color:white;
+    text-align: center;
+    font-style: italic;
+    animation: glow 2s linear infinite;
+    max-width: 800px;
+    max-height: 400px;
+    padding: 20px 0px 20px 0px;
+
+}
+a{
+    color:wheat;
+}
+@keyframes glow {
+    0%{
+        box-shadow: 10px 10px 20px red,-10px -10px 20px gold;
+    }
+    25%{
+        box-shadow: 10px 10px 20px blue,-10 -10px 20px green;
+    }
+    50%{
+        box-shadow: 10px 10px 20px rgb(15, 192, 246),-10px -10px 20px rgb(250, 49, 169);
+    }
+    100%{
+        box-shadow: 10px 10px 20px rgb(73, 209, 112),-10 -10px 20px rgb(214, 61, 231);
+
+    }
+}
+.foot{
+    background-image: url(https://wallpapercave.com/wp/LYnrrzN.png);
+    color: goldenrod;
+    margin-top: 0%;
+    text-align: center;
+    
+}
+.screen{
+    color:blanchedalmond;
+    background-color: red;
+}
